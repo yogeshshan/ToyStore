@@ -31,4 +31,8 @@ public class ToysServiceImplementation implements ToysService {
         return toysRepository.findByPriceBetween(minPriceLimit, maxPriceLimit);
     }
 
+    public void method1() {
+
+    }
+
 }
